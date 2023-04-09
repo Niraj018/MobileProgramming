@@ -8,18 +8,18 @@ import androidx.annotation.Nullable;
 
 public class seventh extends Activity{
     Button btn;
-    TextView tview;
+    TextView TView;
 
     @Override
     protected void onCreate (@Nullable Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seventh);
         btn = (Button)findViewById(R.id.btnClick);
-        tview = (TextView)findViewById(R.id.txtResult);
+        TView = (TextView)findViewById(R.id.txtResult);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tview.setText("Button Has Been Clicked");
+                TView.setText("Button Has Been Clicked");
             }
         });
     }
