@@ -16,7 +16,7 @@
     <activity android:name=".lab6" android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN"></action>
-            <action android:name="android.intent.Category.LAUNCHER"></action>
+            <category android:name="android.intent.category.LAUNCHER"/>
         </intent-filter>
     </activity>
 </application>

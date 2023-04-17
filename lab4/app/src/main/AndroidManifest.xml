@@ -16,8 +16,8 @@
     <activity android:name=".lab4"
         android:exported="true">
         <intent-filter>
-            <action android:name="android.intent.action.MAIN"></action>
-            <action android:name="android.intent.Category.LAUNCHER"></action>
+            <action android:name="android.intent.action.MAIN"/>
+            <action android:name="android.intent.Category.LAUNCHER"/>
         </intent-filter>
     </activity>
     </application>

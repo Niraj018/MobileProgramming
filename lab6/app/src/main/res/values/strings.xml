@@ -1,12 +1,11 @@
 <resources>
     <string name="app_name">lab6</string>
-    <string name="hello">Hello</string>
-    <string name="labelBtn">Label</string>
-    <string name="java">Java</string>
-    <string name="reactJS">ReactJS</string>
-    <string name="android">Android</string>
-    <string name="python">Python</string>
-    <string name="getDetails">Get Details</string>
-    <string name="SelectYourCourse">Select Your Course</string>
-
+    <style name="FullName">Full Name</style>
+    <style name="Username">Username</style>
+    <style name="Password">Password</style>
+    <string-array name="select">
+        <item>Developing</item>
+        <item>Marketing</item>
+        <item>Production</item>
+    </string-array>
 </resources>
