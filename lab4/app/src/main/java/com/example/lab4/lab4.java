@@ -10,7 +10,6 @@ public class lab4 extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.absolutelayout);
         setContentView(R.layout.tablelayout);
     }
 }
