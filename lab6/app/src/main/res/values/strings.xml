@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">lab6</string>
-    <style name="FullName">Full Name</style>
-    <style name="Username">Username</style>
-    <style name="Password">Password</style>
+    <string name="FullName">Full Name</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
     <string-array name="select">
         <item>Developing</item>
         <item>Marketing</item>
